@@ -1,21 +1,21 @@
 @font-face{
-src: url(../portfolio20/font/geosanslight/GeosansLight.ttf);
+src: url(font/GeosansLight.ttf);
 font-family: 'geosans';
 
 }
 
 @font-face{
-    src: url(../portfolio20/font/madecanvas/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf);
+    src: url(font/madecanvas.otf);
     font-family: 'madecanvas';
 }
 
 @font-face{
-    src: url(../portfolio20/font/mademirage/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf);
+    src: url(font/migreregular.otf);
     font-family: 'mademirage';
 }
 
 @font-face{
-    src: url(../portfolio20/font/madecanvas/MADE\ Canvas\ Black\ PERSONAL\ USE.otf);
+    src: url(font/madecanvasbold.otf);
     font-family: 'madecanvasbold';
 }
 
