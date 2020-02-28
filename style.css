@@ -1,0 +1,192 @@
+@font-face{
+src: url(../portfolio20/font/geosanslight/GeosansLight.ttf);
+font-family: 'geosans';
+
+}
+
+@font-face{
+    src: url(../portfolio20/font/madecanvas/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf);
+    font-family: 'madecanvas';
+}
+
+@font-face{
+    src: url(../portfolio20/font/mademirage/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf);
+    font-family: 'mademirage';
+}
+
+@font-face{
+    src: url(../portfolio20/font/madecanvas/MADE\ Canvas\ Black\ PERSONAL\ USE.otf);
+    font-family: 'madecanvasbold';
+}
+
+.mobile-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+    height: 100vh;
+}
+@media only screen and (max-width: 414px) {
+    .desktop-screen {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 415px) {
+    .desktop-screen{
+        display: block;
+    }
+
+    .mobile-screen {
+        display: none;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: O;
+    /* overflow-x: hidden; */
+}
+
+.bg-principal {
+    background-image: url(image/fondocompleto.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-text {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50%;
+    padding-left: 650px;
+    padding-right: 650px;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#link1 {
+    color: white;
+    font-family:"geosans";
+
+}
+
+#link2 {
+    color: black;
+    font-family:"geosans";
+
+}
+
+.textmoda {
+    width: 50vw;
+    box-sizing: border-box;
+    padding: 75px;
+    margin-top: 200px;
+
+}
+
+
+
+.titulomoda {
+    font-family: "madecanvas";
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 15px
+}
+
+.contenido {
+    font-family: "mademirage";
+    margin-bottom: 15px;
+    font-size: 25px
+}
+
+.medium {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "madecanvasbold";
+}
+
+a:hover {
+    /* font-size: 20px; */
+    color: rgba(156, 156, 156, 0.74);
+  }
+#link1:hover{
+     font-size: 20px;
+}
+#link2:hover{
+    font-size: 20px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.sect-1 {
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.imgmoda{
+    width: 50%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+ 
+}
+
+.fotomoda{
+    width: 80%;
+    padding: 10%;
+}
+
+.sect-2 {
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+.textuxui {
+    width: 50vw;
+    box-sizing: border-box;
+    padding: 75px;
+    margin-top: 75px;
+}
+
+.tituloux {
+    font-family: "madecanvas";
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 15px
+}
+
+.contenidoux {
+    font-family: "mademirage";
+    margin-bottom: 15px;
+    font-size: 25px
+}
+
+.fotosux {
+    width: 80%;
+    padding: 10%;
+}
+
+.sticky-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+}
